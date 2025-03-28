@@ -71,3 +71,24 @@ body{
     justify-content: center;
     background: var(--color-gradient);
 }
+
+.header .theme-toggle{
+    height: 43px;
+    width: 43px;
+    border-radius: 50%;
+    font-size: 1.05rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-placeholder);
+    background: var(--color-input);
+    border: 1px solid var(--color-border);
+    transition: all 0.3s ease;
+}
+
+.header .theme-toggle:hover{
+    color: var(--color-primary);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px -1px rgba(0,0,0, 0.1);
+}
